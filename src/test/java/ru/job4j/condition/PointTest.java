@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when102To40Then632() {
+    public void when102To40Then6dot32() {
         double expected = 6.32;
         int x1 = 10;
         int y1 = 2;
@@ -41,12 +41,12 @@ public class PointTest {
     }
 
     @Test
-    public void when99To99Then0() {
-        double expected = 0;
-        int x1 = 9;
-        int y1 = 9;
-        int x2 = 9;
-        int y2 = 9;
+    public void when183To183Then5() {
+        double expected = 5;
+        int x1 = 18;
+        int y1 = 3;
+        int x2 = 13;
+        int y2 = 3;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
