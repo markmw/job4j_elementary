@@ -13,7 +13,7 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        System.out.println(way(-1, 6, 4, 1)); //0
+        System.out.println(way(-1, 6, 4, 1));
         System.out.println(way(1, 2, 2, 1));
         System.out.println(way(1, 1, 2, 2));
     }
