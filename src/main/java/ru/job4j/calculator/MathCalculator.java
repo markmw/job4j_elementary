@@ -7,11 +7,11 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double differenceAndDivison(double first, double second) {
+    public static double diffAndDiv(double first, double second) {
         return difference(first, second) + division(first, second);
     }
 
-    public static double calculationOfAll(double first, double second) {
+    public static double calc(double first, double second) {
         return sum(first, second) + multiply(first, second)
              + difference(first, second) + division(first, second);
     }
